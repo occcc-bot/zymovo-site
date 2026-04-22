@@ -13,6 +13,13 @@
     <header class="header">
         <nav class="nav container">
             <a href="index.html" class="nav-logo">Zymovo</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="platform.html">Platform</a></li>
@@ -23,26 +30,44 @@
         </nav>
     </header>
 
-    <main class="page-main">
+    <main>
+        <section class="hero" style="background-image: url('zymovoimages/9a6175ca-7696-4009-a4df-cc7c748a7b59.png');">
+            <div class="hero-content container">
+                <h1 class="hero-title">Pioneering Scientific Discovery</h1>
+                <p class="hero-subtitle">Our research drives the future of synthetic biology, addressing global challenges with groundbreaking innovation.</p>
+            </div>
+        </section>
+
         <section class="section container">
-            <h1 class="section-title">Research Areas</h1>
+            <h2 class="section-title">Areas of Expertise</h2>
             <div class="grid">
                 <div class="grid-item">
-                    <h3 class="grid-item-title">Gene Therapies</h3>
-                    <p>Developing next-generation gene therapies with enhanced safety and efficacy profiles for a range of genetic disorders.</p>
+                    <h3 class="grid-item-title">Therapeutic Development</h3>
+                    <p>Engineering novel biological systems for targeted drug delivery, advanced diagnostics, and regenerative medicine approaches.</p>
                 </div>
                 <div class="grid-item">
-                    <h3 class="grid-item-title">Immun-Oncology</h3>
-                    <p>Engineering innovative immunotherapies that harness the power of the immune system to fight cancer.</p>
+                    <h3 class="grid-item-title">Sustainable Bioproduction</h3>
+                    <p>Developing microbial cell factories for the eco-friendly production of biofuels, biochemicals, and sustainable materials.</p>
                 </div>
                 <div class="grid-item">
-                    <h3 class="grid-item-title">Metabolic Engineering</h3>
-                    <p>Re-engineering metabolic pathways in microorganisms to produce high-value chemicals and biofuels from renewable resources.</p>
+                    <h3 class="grid-item-title">Environmental Biotechnology</h3>
+                    <p>Harnessing synthetic biology to create innovative solutions for bioremediation, carbon capture, and environmental monitoring.</p>
                 </div>
                 <div class="grid-item">
-                    <h3 class="grid-item-title">Protein Engineering</h3>
-                    <p>Creating novel proteins with tailored functions for a variety of therapeutic and industrial applications.</p>
+                    <h3 class="grid-item-title">Fundamental Biological Engineering</h3>
+                    <p>Pushing the boundaries of genetic circuit design, pathway optimization, and cellular programming to expand the synthetic biology toolkit.</p>
                 </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <h2 class="section-title">Latest Breakthroughs</h2>
+                <div style="max-width: 900px; margin-bottom: var(--space-xl);">
+                    <p class="hero-subtitle">We are constantly advancing the field, with recent publications and patents highlighting our commitment to innovation.</p>
+                </div>
+                <img src="zymovoimages/ChatGPT Image 2026#U5e744#U670822#U65e5 12_17_46.png" alt="Zymovo Research Breakthroughs" style="max-width: 800px; width: 100%; height: auto; border-radius: 10px; margin-bottom: var(--space-xl); border: 1px solid var(--panel-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                <a href="contact.html" class="btn">Collaborate With Us</a>
             </div>
         </section>
     </main>
@@ -56,5 +81,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

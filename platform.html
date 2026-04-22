@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zymovo | Platform</title>
+    <title>Zymovo | Our Platform</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,13 @@
     <header class="header">
         <nav class="nav container">
             <a href="index.html" class="nav-logo">Zymovo</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="platform.html" class="active">Platform</a></li>
@@ -23,22 +30,44 @@
         </nav>
     </header>
 
-    <main class="page-main">
+    <main>
+        <section class="hero" style="background-image: url('zymovoimages/5c3a6b24-dec6-432b-b1d3-3463a942dfa5.png');">
+            <div class="hero-content container">
+                <h1 class="hero-title">Our Integrated Bioengineering Platform</h1>
+                <p class="hero-subtitle">Accelerating discovery and development through a synergistic blend of advanced synthetic biology tools.</p>
+            </div>
+        </section>
+
         <section class="section container">
-            <h1 class="section-title">Our Platform</h1>
+            <h2 class="section-title">From Concept to Reality: Our Approach</h2>
             <div class="grid">
                 <div class="grid-item">
-                    <h3 class="grid-item-title">Discovery Engine</h3>
-                    <p>Our proprietary discovery engine integrates high-throughput screening, computational biology, and machine learning to identify and validate novel biological targets.</p>
+                    <h3 class="grid-item-title">Design & Modeling</h3>
+                    <p>Utilizing computational tools and AI-driven predictive models to engineer biological systems with unprecedented precision and efficiency.</p>
                 </div>
                 <div class="grid-item">
-                    <h3 class="grid-item-title">Development Pipeline</h3>
-                    <p>An integrated pipeline for rapid prototyping and optimization of engineered biological systems, from initial design to preclinical validation.</p>
+                    <h3 class="grid-item-title">Synthesis & Assembly</h3>
+                    <p>Advanced DNA synthesis and rapid assembly techniques to construct complex genetic circuits and pathways at scale.</p>
                 </div>
                 <div class="grid-item">
-                    <h3 class="grid-item-title">Manufacturing Scale-Up</h3>
-                    <p>We have established robust and scalable manufacturing processes to ensure the highest quality and purity of our biological products.</p>
+                    <h3 class="grid-item-title">Characterization & Testing</h3>
+                    <p>High-throughput screening and detailed phenotypic analysis to rigorously validate engineered biological systems.</p>
                 </div>
+                <div class="grid-item">
+                    <h3 class="grid-item-title">Optimization & Scale-up</h3>
+                    <p>Iterative optimization loops and robust bioprocess development for efficient and scalable production of bio-based solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <h2 class="section-title">Key Technological Pillars</h2>
+                <div style="max-width: 900px; margin-bottom: var(--space-xl);">
+                    <p class="hero-subtitle">Our platform is built upon foundational technologies that enable unparalleled control and innovation in synthetic biology.</p>
+                </div>
+                <img src="zymovoimages/ChatGPT Image 2026#U5e744#U670822#U65e5 12_53_46.png" alt="Zymovo Technology Pillars" style="max-width: 800px; width: 100%; height: auto; border-radius: 10px; margin-bottom: var(--space-xl); border: 1px solid var(--panel-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                <a href="contact.html" class="btn">Partner With Us</a>
             </div>
         </section>
     </main>
@@ -52,5 +81,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,30 +1,19 @@
-# Zymovo Website
+# Zymovo - Redesigned Static Website
 
-A premium, visually polished showcase for a high-end synthetic biology laboratory.
+This repository contains the redesigned static website for Zymovo, a high-end synthetic biology laboratory. The site has been revamped to present a premium, visually polished showcase, adhering to a dark luxury biotech aesthetic.
 
-## Redesign Summary
+## Redesign Summary:
 
-The Zymovo website has been completely redesigned to better reflect the brand's identity as a premium, high-end synthetic biology laboratory. The new design is elegant, minimal, and futuristic, with a dark luxury biotech aesthetic.
+*   **Brand Direction:** The site now reflects an elegant, minimal, futuristic yet credible brand image, positioned closer to advanced research than a generic corporate template.
+*   **Visual Enhancements:**
+    *   **Typography:** Refined font sizes, weights, and line heights for improved readability and impact.
+    *   **Color Palette:** Updated accent color (`#00C2A8`) for a sophisticated blue-green hue, complementing the dark background.
+    *   **Spacing & Hierarchy:** Implemented a modular spacing system and improved section composition for better visual rhythm and clarity.
+    *   **Interactive Elements:** Enhanced button styles with subtle hover effects and shadows. Grid items feature pronounced lift and accent-bordered hover states.
+    *   **Responsive Design:** Implemented a functional mobile navigation toggle for improved user experience on smaller screens.
+*   **Content & Layout:**
+    *   **Homepage (index.html):** Features an impactful hero section, refined "Our Core Advancements" grid, and a new "Driving Transformative Innovation" section, integrating relevant images from `assets/hero` and `zymovoimages`.
+    *   **Navigation & Footer:** Maintained consistent navigation across pages and preserved the required contact information in the footer.
+*   **Technical:** The site remains pure static HTML/CSS/JS, optimized for deployment.
 
-The key improvements include:
-
-*   **New Design:** A completely new visual identity that is more sophisticated and premium.
-*   **Improved Typography:** A new font and improved typographic hierarchy for better readability.
-*   **Dynamic Layouts:** A mix of grid and flexbox layouts to create a more engaging visual flow.
-*   **Rewritten Content:** The website copy has been rewritten to be more premium, concise, ambitious, and scientific.
-*   **New Hero Section:** A more impactful hero section with a strong hero image and a concise headline.
-*   **Working Navigation:** All pages are linked and the navigation is fully functional.
-
-## Tech Stack
-
-*   HTML5
-*   CSS3
-*   JavaScript (for the mobile navigation)
-
-## Pages
-
-*   Home (`index.html`)
-*   Platform (`platform.html`)
-*   Research (`research.html`)
-*   About (`about.html`)
-*   Contact (`contact.html`)
+The redesign aims to convey a premium, concise, ambitious, and scientific tone throughout the user experience.
