@@ -1,0 +1,21 @@
+{
+  "images": [
+    {
+      "index": 1,
+      "mime_type": "image/jpeg",
+      "revised_prompt": "",
+      "url": null,
+      "saved_path": "/home/node/.openclaw/workspace/zymovo-site/assets/hero/zymovo-hero-1.jpg"
+    },
+    {
+      "index": 2,
+      "mime_type": "image/jpeg",
+      "revised_prompt": "",
+      "url": null,
+      "saved_path": "/home/node/.openclaw/workspace/zymovo-site/assets/hero/zymovo-hero-2.jpg"
+    }
+  ],
+  "usage": {
+    "cost_in_usd_ticks": 400000000
+  }
+}
