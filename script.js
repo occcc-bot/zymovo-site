@@ -1,14 +1,24 @@
+
+const navToggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.nav');
-const toggle = document.querySelector('.nav-toggle');
-const page = document.body.dataset.page;
 
-document.querySelectorAll('.nav a').forEach((link) => {
-  const href = link.getAttribute('href') || '';
-  if ((page === 'home' && href === 'index.html') || href.includes(page)) {
-    link.classList.add('active');
-  }
-});
-
-if (toggle && nav) {
-  toggle.addEventListener('click', () => nav.classList.toggle('open'));
+if (navToggle) {
+  navToggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
 }
+
+const navLinks = document.querySelectorAll('.nav-links a');
+
+const a = document.createElement('a');
+a.href = window.location.href;
+const currentPath = a.pathname;
+
+navLinks.forEach(link => {
+    const a = document.createElement('a');
+    a.href = link.href;
+
+    if (a.pathname === currentPath) {
+        link.classList.add('active');
+    }
+});

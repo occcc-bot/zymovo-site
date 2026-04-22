@@ -1,69 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Platform — Zymovo</title>
-  <meta name="description" content="Platform overview for the Zymovo synthetic biology laboratory showcase." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zymovo | Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body data-page="platform">
-  <div class="site-bg"></div>
-  <header class="topbar">
-    <a class="brand" href="index.html">Zymovo</a>
-    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="platform.html">Platform</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main class="container page-main">
-    <div class="section-tag">Platform</div>
-    <h1 class="page-title">A clean platform narrative for programmable biology.</h1>
-    <p class="page-intro">The Zymovo platform language is built around modularity, measured experimentation, and visual clarity — a site architecture that feels aligned with rigorous lab systems.</p>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">Zymovo</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="platform.html" class="active">Platform</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="timeline-grid">
-      <div class="glass-card timeline-item">
-        <span>01</span>
-        <h3>Design</h3>
-        <p>Frame biological questions through modular constructs, assay logic, and tractable system boundaries.</p>
-      </div>
-      <div class="glass-card timeline-item">
-        <span>02</span>
-        <h3>Prototype</h3>
-        <p>Iterate with cell-free or contained experimental systems to reduce ambiguity and accelerate learning cycles.</p>
-      </div>
-      <div class="glass-card timeline-item">
-        <span>03</span>
-        <h3>Measure</h3>
-        <p>Prioritize signal quality, reproducibility, and decision-useful outputs over decorative complexity.</p>
-      </div>
-      <div class="glass-card timeline-item">
-        <span>04</span>
-        <h3>Present</h3>
-        <p>Translate technical substance into a premium external narrative suitable for stakeholders and collaborators.</p>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <div class="brand brand-footer">Zymovo</div>
-        <p>Minimal synthetic biology laboratory showcase.</p>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <p>联系人：达菲鸡</p>
-        <p><a href="mailto:info@Zymovo.com">info@Zymovo.com</a></p>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js"></script>
+    <main class="page-main">
+        <section class="section container">
+            <h1 class="section-title">Our Platform</h1>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3 class="grid-item-title">Discovery Engine</h3>
+                    <p>Our proprietary discovery engine integrates high-throughput screening, computational biology, and machine learning to identify and validate novel biological targets.</p>
+                </div>
+                <div class="grid-item">
+                    <h3 class="grid-item-title">Development Pipeline</h3>
+                    <p>An integrated pipeline for rapid prototyping and optimization of engineered biological systems, from initial design to preclinical validation.</p>
+                </div>
+                <div class="grid-item">
+                    <h3 class="grid-item-title">Manufacturing Scale-Up</h3>
+                    <p>We have established robust and scalable manufacturing processes to ensure the highest quality and purity of our biological products.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <a href="index.html" class="footer-logo">Zymovo</a>
+            <div class="footer-contact">
+                <p>Contact person: 达菲鸡</p>
+                <p>Email: <a href="mailto:info@Zymovo.com">info@Zymovo.com</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
